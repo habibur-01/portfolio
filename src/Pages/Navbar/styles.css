@@ -1,0 +1,15 @@
+.brandName{
+    
+    background-image: linear-gradient(to right, rgb(255, 0, 0) , rgb(117, 233, 9));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+.btn-prime{
+    background: #212428;
+    border: none;
+    box-shadow: 4px 0px 10px rgba(240, 239, 239, 0.1);
+    color: #F9004D;
+}
