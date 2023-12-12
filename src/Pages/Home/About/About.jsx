@@ -11,7 +11,7 @@ const About = () => {
         color: "#F9004D",
     }
     return (
-        <div id="about" className="text-[#f1f0f0] border-b-2 border-[#191c20]">
+        <div id="about" className="text-[#f1f0f0]  border-b-2 border-[#191c20]">
             <TitleCaption subTitle={'About'} mainTitle={'Know About Me'}></TitleCaption>
 
             <div className="lg:flex mt-14 justify-around gap-12 mb-24 ">

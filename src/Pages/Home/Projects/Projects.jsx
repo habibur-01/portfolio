@@ -13,10 +13,10 @@ const Projects = () => {
     }
 
     return (
-        <div id="projects" className='border-b-2 border-[#191c20]'>
+        <div id="projects" className='border-b-2 border-[#191c20] '>
       
             <TitleCaption subTitle={'Projects'} mainTitle={'My Projects'}></TitleCaption>
-            <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-3 gap-10 mb-24">
+            <div className="mt-14 grid md:grid lg:grid-cols-3 gap-10 mb-24">
                 <div className="card w-96 bg-[#1E2125] text-[#f1f0f0] shadow-xl hover:bg-gradient-to-r from-[#1E2125] to-[#141416] hover:-translate-y-3  hover:shadow-xl duration-300">
                     <figure className="px-10 pt-10">
                         <img src={projects1} alt="Shoes" className="rounded-xl" />

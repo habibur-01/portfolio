@@ -2,7 +2,6 @@ import React from 'react';
 import Banner from './Banner/Banner';
 import About from './About/About';
 import Services from './Services/Services';
-import Explore from './Services/Explore/Explore';
 import Projects from './Projects/Projects';
 import Resume from './Resume/Resume';
 import { ContactUs } from './ContuctUs/ContuctUs';
