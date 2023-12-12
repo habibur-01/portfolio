@@ -21,7 +21,7 @@ const Services = () => {
         })
 
     return (
-        <div>
+        <div id='services'>
             <TitleCaption subTitle={'Features'} mainTitle={'What Can I Do'}></TitleCaption>
 
             <div className='mt-14 grid grid-cols-3 gap-y-10'>
@@ -29,7 +29,10 @@ const Services = () => {
                     data.map(tool => <div className="card w-96 bg-[#1E2125] text-[#f1f0f0] shadow-xl hover:bg-gradient-to-r from-[#1E2125] to-[#141416] hover:-translate-y-3  hover:shadow-xl duration-300" key={tool.tool}>
 
                         <div className="card-body">
+                            <div className='flex'>
                             <figure className='w-16 h-16'><img src={tool.toolImg} className='w-16 h-16 text-[#F9004D]' alt="Tool Icon" /></figure>
+                            <p className='text-[#F9004D] text-right'>{tool.status}</p>
+                            </div>
                             <h2 className="card-title">{tool.tool}</h2>
                             <p>{tool.description}</p>
                             <div className="card-actions justify-end">

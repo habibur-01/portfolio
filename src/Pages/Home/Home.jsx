@@ -5,6 +5,7 @@ import Services from './Services/Services';
 import Explore from './Services/Explore/Explore';
 import Projects from './Projects/Projects';
 import Resume from './Resume/Resume';
+import { ContactUs } from './ContuctUs/ContuctUs';
 
 const Home = () => {
     return (
@@ -12,9 +13,10 @@ const Home = () => {
             <Banner></Banner>
             <About></About>
             <Services></Services>
-            <Explore></Explore>
+            {/* <Explore></Explore> */}
             <Projects></Projects>
-            <Resume></Resume>  
+            <Resume></Resume> 
+            <ContactUs></ContactUs> 
         </div>
     );
 };

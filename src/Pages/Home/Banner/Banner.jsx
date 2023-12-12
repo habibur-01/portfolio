@@ -17,9 +17,9 @@ const Banner = () => {
                         <div className='space-y-4'>
                             <h1 className='uppercase text-sm'>Connect with me</h1>
                             <div className='flex gap-2'>
-                                <p className='btn bg-[#191c20] text-white shadow-slate-100 border-none hover:text-black'><FaFacebookF /></p>
-                                <p className='btn bg-[#191c20] text-white shadow-slate-100 border-none hover:text-black'> <FaTwitter /></p>
-                                <p className='btn bg-[#191c20] text-white shadow-slate-100 border-none hover:text-black'> <FaLinkedinIn /></p>
+                                <p className='btn bg-[#191c20] text-white shadow-slate-100 border-none hover:text-black'><a href="https://www.facebook.com/habiburrahman.zihad.39?mibextid=ZbWKwL"><FaFacebookF /></a></p>
+                                <p className='btn bg-[#191c20] text-white shadow-slate-100 border-none hover:text-black'> <a href=""><FaTwitter /></a></p>
+                                <p className='btn bg-[#191c20] text-white shadow-slate-100 border-none hover:text-black'> <a href="in/ habibur-rahman-zihad-563056287"><FaLinkedinIn /></a></p>
                             </div>
 
                         </div>

@@ -13,7 +13,7 @@ const Projects = () => {
     }
 
     return (
-        <div className='border-b-2 border-[#191c20]'>
+        <div id="projects" className='border-b-2 border-[#191c20]'>
       
             <TitleCaption subTitle={'Projects'} mainTitle={'My Projects'}></TitleCaption>
             <div className="mt-14 grid lg:grid-cols-3 gap-10 mb-24">
@@ -23,9 +23,9 @@ const Projects = () => {
                     </figure>
                     <div className="card-body ">
                         <h2 className="card-title">Hotel Management System</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>You can easily find your desire room & can booking. </p>
                         <div className="card-actions">
-                            <button className="btn-prime px-6 py-3 rounded-md">Details</button>
+                            <button className="btn-prime px-6 py-3 rounded-md"><a href="https://github.com/habibur-01/Assignment-11">Details</a></button>
                         </div>
                     </div>
                 </div>
@@ -35,9 +35,9 @@ const Projects = () => {
                     </figure>
                     <div className="card-body ">
                         <h2 className="card-title">Brand Shop </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>You can find world famous brands clothes all in one.</p>
                         <div className="card-actions">
-                            <button className="btn-prime px-6 py-3 rounded-md">Details</button>
+                            <button className="btn-prime px-6 py-3 rounded-md"><a href="https://github.com/habibur-01/Brand-Shop">Details</a></button>
                         </div>
                     </div>
                 </div>
@@ -47,9 +47,9 @@ const Projects = () => {
                     </figure>
                     <div className="card-body ">
                         <h2 className="card-title">Employee Management System</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>You can easily manage your manpower over your company.</p>
                         <div className="card-actions">
-                            <button className="btn-prime px-6 py-3 rounded-md">Details</button>
+                            <button className="btn-prime px-6 py-3 rounded-md"><a href="https://github.com/habibur-01/Employee_mangament">Details</a></button>
                         </div>
                     </div>
                 </div>

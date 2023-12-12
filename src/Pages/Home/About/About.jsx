@@ -11,7 +11,7 @@ const About = () => {
         color: "#F9004D",
     }
     return (
-        <div className="text-[#f1f0f0] border-b-2 border-[#191c20]">
+        <div id="about" className="text-[#f1f0f0] border-b-2 border-[#191c20]">
             <TitleCaption subTitle={'About'} mainTitle={'Know About Me'}></TitleCaption>
 
             <div className="flex mt-14 justify-around gap-12 mb-24 ">
@@ -34,7 +34,7 @@ const About = () => {
                         <p className="mt-6">I am Habibur Rahman Zihad. I am studying at Daffodil International University with CSE and maintained a CGPA of 3.57.</p><br/>
                         <p>I am also a Fron-End Developer. My experties are HTML, CSS, Javascript, React, Tailwind. I am also known with Firebase authintication. Exploring Express.js and MongoDB for Back-End. Now I am most prefarable with  Tailwind and React.js.Also comfortable to do responsive any website.</p>
 
-                        <button className="px-6 py-3 rounded-md mt-8" style={btnPrime}><a href="https://drive.google.com/file/d/1qYO3i5wGyqnYfKTC0M9Zso4pl19QKkmx/view?usp=sharing" download target={"_blank"}>Download CV</a></button>
+                        <button className="px-6 py-3 rounded-md mt-8 hover:-translate-y-2" style={btnPrime}><a href="https://drive.google.com/file/d/1qYO3i5wGyqnYfKTC0M9Zso4pl19QKkmx/view?usp=sharing" download target={"_blank"}>Download CV</a></button>
                     </div>
 
                 </div>
