@@ -1,0 +1,12 @@
+[
+    {
+        "tool": "Express.js",
+        "toolImg": "https://i.ibb.co/6Rch069/express-js-icon.webp",
+        "description": "Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in HTML. It controls the layout, colors, and fonts of web pages, enhancing the visual presentation."
+      },
+      {
+        "tool": "Next.js",
+        "toolImg": "https://i.ibb.co/Kr3TTDk/nextjs.jpg",
+        "description": "Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in HTML. It controls the layout, colors, and fonts of web pages, enhancing the visual presentation."
+      }
+]

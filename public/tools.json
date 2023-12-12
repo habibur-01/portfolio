@@ -1,0 +1,40 @@
+[
+    {
+        "tool": "CSS",
+        "toolImg": "https://i.ibb.co/DC48p3t/icons8-css-50.png",
+        "description": "Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in HTML. It controls the layout, colors, and fonts of web pages, enhancing the visual presentation."
+      },
+    
+    {
+      "tool": "Tailwind CSS",
+      "toolImg": "https://i.ibb.co/wrRHWJC/icons8-tailwind-css-48.png",
+      "description": "A utility-first CSS framework that makes it easy to design and build modern and responsive user interfaces. It provides low-level utility classes to construct designs directly in your markup."
+    },
+    {
+      "tool": "Bootstrap",
+      "toolImg": "https://i.ibb.co/84w0VNz/icons8-bootstrap-48.png",
+      "description": "A popular front-end framework that includes HTML, CSS, and JavaScript components for building responsive and mobile-first web projects. It simplifies the process of web development with pre-designed components and styles."
+    },
+    {
+      "tool": "JavaScript",
+      "toolImg": "https://i.ibb.co/0hYpKDv/icons8-javascript-48.png",
+      "description": "A versatile programming language commonly used for building interactive and dynamic websites. It runs on the client side and allows developers to add functionality, validate forms, and manipulate the DOM."
+    },
+    {
+        "tool": "React.js",
+        "toolImg":"https://i.ibb.co/0Gdjzpy/icons8-react-30.png",
+        "description": "A JavaScript library for building user interfaces. It allows developers to create reusable UI components for building efficient and maintainable web applications."
+      },
+      {
+        "tool": "Firebase Authintication",
+        "toolImg": "https://i.ibb.co/TkDc6Dg/icons8-firebase-48.png",
+        "description": "Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in HTML. It controls the layout, colors, and fonts of web pages, enhancing the visual presentation."
+      },
+      {
+        "tool": "MongoDB",
+        "toolImg": "https://i.ibb.co/34yBSST/1-do-Ag1-f-MQKWFoub-6gw-Ui-Q.png",
+        "description": "Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in HTML. It controls the layout, colors, and fonts of web pages, enhancing the visual presentation."
+      }
+
+  ]
+  

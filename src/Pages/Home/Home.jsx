@@ -1,11 +1,18 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
 import Banner from './Banner/Banner';
+import About from './About/About';
+import Services from './Services/Services';
+import Explore from './Services/Explore/Explore';
+import Projects from './Projects/Projects';
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='container mx-auto'>
             <Banner></Banner>
+            <About></About>
+            <Services></Services>
+            <Explore></Explore>
+            <Projects></Projects>
             
             
         </div>
