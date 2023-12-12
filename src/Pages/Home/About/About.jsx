@@ -14,9 +14,9 @@ const About = () => {
         <div id="about" className="text-[#f1f0f0] border-b-2 border-[#191c20]">
             <TitleCaption subTitle={'About'} mainTitle={'Know About Me'}></TitleCaption>
 
-            <div className="flex mt-14 justify-around gap-12 mb-24 ">
+            <div className="lg:flex mt-14 justify-around gap-12 mb-24 ">
                 <div className="">
-                    <div className="card w-[500px] h-[620] bg-[#25282e] rounded-md shadow-xl">
+                    <div className="card ml-2 lg:ml-0 w-[400px] md:w-[500px] h-[620] bg-[#25282e] rounded-md shadow-xl">
                         <div className='w-full py-8'>
                             <figure>
                                 <img src={about} alt="user image" className='rounded-md' />
@@ -28,8 +28,8 @@ const About = () => {
 
 
                 </div>
-                <div className="flex items-center">
-                    <div className="w-[65%]">
+                <div className="flex items-center ml-4 lg:ml-0">
+                    <div className="w-[65%] md:mt-4 lg:mt-0">
                         <h1 className="text-4xl font-semibold">About Me</h1><hr />
                         <p className="mt-6">I am Habibur Rahman Zihad. I am studying at Daffodil International University with CSE and maintained a CGPA of 3.57.</p><br/>
                         <p>I am also a Fron-End Developer. My experties are HTML, CSS, Javascript, React, Tailwind. I am also known with Firebase authintication. Exploring Express.js and MongoDB for Back-End. Now I am most prefarable with  Tailwind and React.js.Also comfortable to do responsive any website.</p>

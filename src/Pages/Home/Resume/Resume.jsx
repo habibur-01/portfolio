@@ -15,8 +15,8 @@ const Resume = () => {
             <div className='text-center'>
                 <TitleCaption subTitle={'Resume'} mainTitle={'My Resume'}></TitleCaption>
             </div>
-            <div className='text-[#f1f0f0] flex justify-between mb-24 mt-10'>
-                <div className='w-[50%]'>
+            <div className='text-[#f1f0f0] lg:flex justify-between mb-24 mt-10'>
+                <div className='lg:w-[50%]'>
                     <h1 className=' text-3xl my-8'>Education Quality</h1>
                     <div className='p-8 mb-3 bg-[#1E2125] rounded-md mr-6'>
                         <h1 className='text-2xl font-medium'>BSc in Computer Science & Engineering</h1>
@@ -39,18 +39,18 @@ const Resume = () => {
                     <hr/>
                 </div> */}
                 <div className='flex-1'>
-                    <h1 className=' text-3xl my-8 ml-6'>Experience</h1>
-                    <div className='p-8 mb-3 bg-[#1E2125] rounded-md ml-6'>
+                    <h1 className=' text-3xl my-8 lg:ml-6'>Experience</h1>
+                    <div className='p-8 mb-3 bg-[#1E2125] rounded-md lg:ml-6'>
                         <h1 className='text-2xl font-medium'>As a Freelancer</h1>
                         <p className='text-base '>Completed Two Works</p>
                         <p className='text-base'>Job Type: Data Entry</p>
                     </div>
-                    <div className='p-6 mb-3 bg-[#1E2125] rounded-md ml-6'>
+                    <div className='p-6 mb-3 bg-[#1E2125] rounded-md lg:ml-6'>
                         <h1 className='text-2xl font-medium'>CO-CURRICULAR ACTIVITIES</h1>
                         <p className='text-base '>Member | DIU CPC(Computer & Programming Club)</p>
                         <p className='text-base'>ClubDaffodil International University </p>
                     </div>
-                    <div className='p-6 mb-3 bg-[#1E2125] rounded-md ml-6'>
+                    <div className='p-6 mb-3 bg-[#1E2125] rounded-md lg:ml-6'>
                         <h1 className='text-2xl font-medium'>PROJECT/THESIS:</h1>
                         <p className='text-base pb-6'>Fake News Detection Using Machine Learning(Thesis)</p>     
                         

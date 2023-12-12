@@ -29,7 +29,7 @@ export const ContactUs = () => {
         <div className='text-[#db4242] border-b-2 mb-8' id='contact'>
             <ToastContainer></ToastContainer>
             <TitleCaption subTitle={'contact'} mainTitle={'Contact With Me'}></TitleCaption>
-            <div className=' mt-12 bg-cover bg-center relative' >
+            <div className=' mt-12 ' >
                 {/* <figure className='h-[400px]'> 
                     <img src={contactbg} alt="" className='w-full object-fill rounded-lg h-[500px]' />
                 </figure> */}
