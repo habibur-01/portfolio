@@ -1,4 +1,4 @@
-import React from 'react';
+
 import TitleCaption from '../../../Hooks/TitleCaption';
 
 const Resume = () => {
@@ -11,7 +11,7 @@ const Resume = () => {
     }
 
     return (
-        <div id='resume' className='border-b-2 border-[#191c20]'>
+        <div id='resume' className='border-b-2 border-[#191c20] flex flex-col items-center lg:block'>
             <div className='text-center'>
                 <TitleCaption subTitle={'Resume'} mainTitle={'My Resume'}></TitleCaption>
             </div>
@@ -61,7 +61,7 @@ const Resume = () => {
             </div>
 
             <div className='flex justify-center mb-24'> 
-                <button className='btn-prime px-6 py-3 rounded-md hover:-translate-y-3'><a href="https://drive.google.com/file/d/1qYO3i5wGyqnYfKTC0M9Zso4pl19QKkmx/view?usp=sharing" download target='blank'>Download CV</a></button>
+                <button className='px-6 py-3 rounded-md hover:-translate-y-3' style={btnPrime}><a href="https://drive.google.com/file/d/1qYO3i5wGyqnYfKTC0M9Zso4pl19QKkmx/view?usp=sharing" download target='blank'>Download CV</a></button>
             </div>
             
         </div>

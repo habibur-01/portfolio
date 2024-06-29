@@ -1,7 +1,7 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
-import contactbg from "../../../assets/img/contactus.jpg"
+// import contactbg from "../../../assets/img/contactus.jpg"
 import TitleCaption from '../../../Hooks/TitleCaption';
 
 export const ContactUs = () => {
@@ -26,7 +26,7 @@ export const ContactUs = () => {
     };
 
     return (
-        <div className='text-[#db4242] border-b-2 mb-8' id='contact'>
+        <div className='text-[#db4242] mb-12 px-10 lg:px-0 ' id='contact'>
             <ToastContainer></ToastContainer>
             <TitleCaption subTitle={'contact'} mainTitle={'Contact With Me'}></TitleCaption>
             <div className=' mt-12 ' >
